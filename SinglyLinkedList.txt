@@ -1,0 +1,9 @@
+class Node<V> {
+  var value: V
+  var next: Node?
+
+  init(value: Value, next: Node? = nil) {
+    self.value = value
+    self.next = next
+  }
+}
